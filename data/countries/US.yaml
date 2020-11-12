@@ -42,51 +42,34 @@ holidays:
       01-01 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: 01-01
-      3rd monday in January:
-        name:
-          en: Martin Luther King Day
-      3rd monday in February:
-        name:
-          en: Washington’s Birthday
+        name: New Year's Day
       02-14:
-        _name: 02-14
-        type: observance
-      04-15 if friday then next monday if saturday,sunday then next tuesday:
-        name:
-          en: Tax Day
-        type: observance
-      wednesday before 04-28:
-        name:
-          en: Administrative Professionals Day
-        type: observance
-      2nd sunday in May:
-        _name: Mothers Day
-        type: observance
-      # last monday in may
+        name: Valentine's Day
+          en: Valentine's Day
+      3rd monday in February:
+        name: President's Day
+          en: President's Day
       monday before 06-01:
-        name:
+        name: Memorial Day
           en: Memorial Day
-      3rd sunday in June:
-        _name: Fathers Day
-        type: observance
       07-04 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: Independence Day
-      monday in September:
-        _name: 05-01
-      2nd monday in October:
-        name:
-          en: Columbus Day
-      10-31 18:00:
-        name:
-          en: Halloween
+        name: Independence Day
+      07-05:
+        _name: Independence Day Observed
+        name: Independence Day Observed
+      1st monday in September:
+        name: Labor Day
+          en: Labor Day
         type: observance
-      11-11:
-        name:
-          en: Veterans Day
       tuesday after 1st monday in November every 4 years since 1848:
         name:
           en: Election Day
+        type: observance
+      wednesday before 4th thursday in November:
+        name:
+          en: Day before Thanksgiving Day
         type: observance
       4th thursday in November:
         name:
@@ -97,12 +80,15 @@ holidays:
         type: observance
       12-24:
         _name: 12-24
+        name: Christmas Eve
         type: optional
       12-25 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: 12-25
+        name: Christmas Day
       12-31 18:00:
         _name: 12-31
+        name: New Year's Eve
         type: observance
     states:
       AL:
