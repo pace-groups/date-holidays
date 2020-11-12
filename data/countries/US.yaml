@@ -44,13 +44,13 @@ holidays:
         _name: 01-01
         name: New Year's Day
       02-14:
-        name: Valentine's Day
+        name:
           en: Valentine's Day
       3rd monday in February:
-        name: President's Day
+        name:
           en: President's Day
       monday before 06-01:
-        name: Memorial Day
+        name:
           en: Memorial Day
       07-04 and if sunday then next monday if saturday then previous friday:
         substitute: true
@@ -60,7 +60,7 @@ holidays:
         _name: Independence Day Observed
         name: Independence Day Observed
       1st monday in September:
-        name: Labor Day
+        name:
           en: Labor Day
         type: observance
       tuesday after 1st monday in November every 4 years since 1848:
@@ -88,7 +88,8 @@ holidays:
         name: Christmas Day
       12-31 18:00:
         _name: 12-31
-        name: New Year's Eve
+        name:
+          en: New Year's Eve
         type: observance
     states:
       AL:
