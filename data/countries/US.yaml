@@ -86,7 +86,7 @@ holidays:
         substitute: true
         _name: 12-25
         name: Christmas Day
-      12-31 18:00:
+      12-31:
         _name: 12-31
         name:
           en: New Year's Eve
